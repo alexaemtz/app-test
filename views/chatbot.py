@@ -32,7 +32,8 @@ if prompt:
     # Prompt
     modified_promp = f"""{prompt}. Considerando que soy un paciente diabético y actualmente me siento {mood}, 
     ¿qué consejos me puedes dar para manejar mi diabetes y promover mi bienestar general? 
-    Por favor, enfócate en estrategias prácticas y considera mi estado emocional actual."""
+    Por favor, enfócate en estrategias prácticas y considera mi estado emocional actual. 
+    Haz que las respuestas sean breves. Aproximadamente 10 líneas de texto, como máximo."""
 
     # Iniciar el chat con el historial actual
     chat = model.start_chat(history=[{"role": m["role"], "parts": [m["content"]]} for m in st.session_state["messages"][:-1]])
