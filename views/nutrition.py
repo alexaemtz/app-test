@@ -50,11 +50,11 @@ if sugerencias:
     Formato de salida sugerido:
     **Día [Número]:**
     
-    * **Desayuno:** [Nombre del plato] - [Descripción breve] - [Tamaño de porción en gramos o tazas, según sea posible] - [Precio aproximado]
-    * **Media Mañana:** [Nombre del snack] - [Descripción breve] - [Tamaño de porción en gramos o tazas, según sea posible] - [Precio aproximado]
-    * **Almuerzo:** [Nombre del plato] - [Descripción breve] - [Tamaño de porción en gramos o tazas, según sea posible]] - [Precio aproximado]
-    * **Media Tarde:** [Nombre del snack] - [Descripción breve] - [Tamaño de porción en gramos o tazas, según sea posible] - [Precio aproximado]
-    * **Cena:** [Nombre del plato] - [Descripción breve] - [Tamaño de porción en gramos o tazas, según sea posible]- [Precio aproximado]
+    * **Desayuno:** [Nombre del plato] - [Descripción breve] - [Precio aproximado]
+    * **Media Mañana:** [Nombre del snack] - [Descripción breve] - [Precio aproximado]
+    * **Almuerzo:** [Nombre del plato] - [Descripción breve] - [Precio aproximado]
+    * **Media Tarde:** [Nombre del snack] - [Descripción breve] - [Precio aproximado]
+    * **Cena:** [Nombre del plato] - [Descripción breve] - [Precio aproximado]
     """
     
     try:
